@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- sheetjs (C) 2013-present  SheetJS http://sheetjs.com -->
+<!-- vim: set ts=2: -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' https:"
+    />
+    <link rel="stylesheet" href="modal.css" />
+    <script src="fillTable.js" type="module"></script>
+    <title>SheetJS Electron Demo</title>
+  </head>
+  <body>
+    <table id="htmlout" class="table-container">
+      <tr class="table-domain">
+        <th>DNI</th>
+        <th>NOMBRES</th>
+        <th>APELLIDOS</th>
+        <th>TIPO</th>
+        <th>FECHA</th>
+        <th>HORA</th>
+      </tr>
+      <tbody class="table-body"></tbody>
+    </table>
+    <input
+      type="submit"
+      value="Export Data!"
+      id="exportBtn"
+      class="exportBtn"
+    />
+    <a href="index.html">Regresar</a>
+    <script src="index.js"></script>
+  </body>
+</html>

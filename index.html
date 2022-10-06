@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ControlAsistencia</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="logic.js" type="module"></script>
+  </head>
+  <body>
+    <!-- <div id="clockdate">
+        <div class="clockdate-wrapper">
+          <div id="clock"></div>
+          <div id="date"></div>
+        </div>
+      </div> -->
+
+    <section class="saveFrm">
+      <form action="" class="form">
+        <div class="titleContainer">
+          <figure>
+            <img src="./logo.png" width="140" height="70" alt="logo" />
+          </figure>
+          <!-- <h1 class="title">Don Maki</h1> -->
+        </div>
+
+        <div class="dateContainer">
+          <div class="header-fecha" id="fecha"></div>
+          <div class="header-hora" id="hora"></div>
+        </div>
+
+        <div class="inputContainer">
+          <select class="control-form-dni input">
+            <option value="default"></option>
+            <option value="75441002">75441002</option>
+            <option value="44040711">44040711</option>
+            <option value="61322584">61322584</option>
+            <option value="47217217">47217217</option>
+            <option value="75507167">75507167</option>
+            <option value="73008263">73008263</option>
+            <option value="3718215">3718215</option>
+          </select>
+          <label for="Dni" class="label">Dni/Carnet de Extranjeria</label>
+        </div>
+
+        <div class="inputContainer">
+          <input class="control-form-nombres input" type="text" />
+          <label for="Nombres" class="label">Nombres</label>
+        </div>
+
+        <div class="inputContainer">
+          <input class="control-form-apellidos input" type="text" />
+          <label for="Apellidos" class="label">Apellidos</label>
+        </div>
+
+        <div class="inputContainer">
+          <select class="control-form-tipo input">
+            <option value="Entrada">Entrada</option>
+            <option value="Salida">Salida</option>
+          </select>
+          <label for="Tipo" class="label">Tipo</label>
+        </div>
+        <input class="submitBtn" type="submit" value="Grabar" />
+        <a href="modal.html">Ver Registro</a>
+        <div class="view-answer"></div>
+      </form>
+    </section>
+  </body>
+</html>
